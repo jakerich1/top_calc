@@ -22,7 +22,7 @@ main {
     margin-bottom: 10px;
     font-size: 64px;
     border: 2px solid rgb(195, 204, 211);
-    border-radius: 8px;
+    overflow: scroll;
 }
 
 .row {
@@ -54,9 +54,13 @@ main {
 }
 
 .red{
-    background-color: rgb(255, 118, 118);
+    background-color: #f1c5c5;
 }
 
 .blue{
-    background-color: rgb(158, 219, 255);
+    background-color: #8bcdcd;
+}
+
+.operate{
+    background-color: #dfd8ad;
 }
